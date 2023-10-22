@@ -1,0 +1,24 @@
+#acho {
+  display: block;
+  margin: auto;
+}
+
+#dialog-box {
+  text-align: center;
+  font-size: medium;
+}
+
+#fix-button {
+  border:none;
+  border-radius: 100px;
+  padding: 10px;
+  background-color: #f8c7a2;
+  transition: all 0.5s;
+  margin-left: 14px;
+}
+
+#fix-button:hover {
+  background-color: #b34a04;
+  color: white;
+  cursor: pointer;
+}

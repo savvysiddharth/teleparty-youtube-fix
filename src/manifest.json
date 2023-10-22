@@ -1,0 +1,36 @@
+{
+  "manifest_version": 2,
+  "name": "Teleparty Youtube Fix",
+  "version": "1.1",
+  "description": "Fixes full screen issue on youtube with Teleparty while chat panel is open.",
+  "icons" : {
+    "16": "icons/x16.png",
+    "24": "icons/x24.png",
+    "32": "icons/x32.png",
+    "128": "icons/x128.png"
+  },
+  "page_action": {
+    "default_title": "Teleparty Youtube Fix",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/x16.png",
+      "24": "icons/x24.png",
+      "32": "icons/x32.png",
+      "128": "icons/x128.png"
+    }
+  },
+  "permissions": [
+    "tabs",
+    "https://www.youtube.com/*"
+  ],
+  "background": {
+    "scripts" : ["eventPage.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
