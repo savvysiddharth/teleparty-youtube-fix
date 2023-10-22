@@ -11,6 +11,9 @@ Chrome extension that fixes full screen issue on YouTube with Teleparty while ch
 
 
 ## Usage instructions:
+
+You can use any one of the following keyboard shortcuts on Youtube while the Teleparty panel is open and video is in fullscreen mode.
+
 * <kbd>Ctrl</kbd> + <kbd>Shift</kbd>
   * To make fullscreen video visible properly with chat panel open. You will need to do this every time you open or close chat panel, or go back and fourth of fullscreen mode.
 
